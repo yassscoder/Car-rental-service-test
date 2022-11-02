@@ -127,7 +127,6 @@ public class RentServiceTest {
         assertEquals(rental, currentRental);
         assertEquals(rental.getId(), currentRental.getId());
 
-        //to make this assertions is mandatory to this.class in rental to reach values of car and user
         assertEquals(rental.getCar(), currentRental.getCar());
         assertEquals(rental.getUser(), currentRental.getUser());
         assertEquals(rental.getUser().getName(), currentRental.getUser().getName());
